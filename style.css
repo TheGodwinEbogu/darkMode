@@ -1,0 +1,122 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: inherit;
+  color: #161016;
+}
+.container {
+  max-width: 130rem;
+  margin: 7rem auto;
+  padding: 0.32rem;
+  background-color: #f8ecf8;
+  box-shadow: 0 1rem 2rem rgba(0, 0.15, 0.15, 0.15);
+}
+.section-hero {
+  display: flex;
+  gap: 5rem;
+}
+.small-content-box {
+  width: 25%;
+  text-align: center;
+  background-color: #e0aae0;
+  padding: 5rem 1rem;
+  position: relative;
+}
+.toggle {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  bottom: 3%;
+  right: 50%;
+  fill: #161016;
+  stroke: #161016;
+}
+.large-content-box {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Profile-img {
+  max-width: 50%;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.profile-name {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.profile-paragraph {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.profile-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+.profile-link:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  display: inline-block;
+}
+.profile-paragraph-bottom {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-style: italic;
+}
+.mt {
+  margin-top: 3rem;
+}
+.headin-box {
+  align-self: center;
+}
+.heading-primary {
+  font-size: 4.5rem;
+  margin-bottom: 5rem;
+  animation: moveInRight 1.7s ease-out;
+}
+.headin-span {
+  display: block;
+}
+.headin-span-sm {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.cta {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  border: 2px solid #2c202c;
+  transition: all 0.3s;
+}
+.cta:hover {
+  color: #fff;
+  background-color: #2c202c;
+  transform: translateY(5%);
+}
+.hero-img {
+  align-self: end;
+  max-width: 50%;
+}
